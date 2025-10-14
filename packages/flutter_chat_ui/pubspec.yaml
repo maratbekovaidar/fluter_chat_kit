@@ -1,9 +1,9 @@
 name: flutter_chat_ui
 description: A lightweight, customizable chat UI kit for Flutter.
 version: 0.1.0
-publish_to: none
 environment:
-  sdk: ">=2.19.0 <4.0.0"
+  sdk: ^3.6.0
+resolution: workspace
 dependencies:
   flutter:
     sdk: flutter

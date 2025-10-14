@@ -1,0 +1,7 @@
+name: flutter_chat_kit
+publish_to: none
+version: 0.1.0
+environment:
+  sdk: ^3.6.0
+workspace:
+  - packages/flutter_chat_ui
