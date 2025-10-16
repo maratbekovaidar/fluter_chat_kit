@@ -1,7 +1,86 @@
-# Flutter / Dart
-**/build/
+# =====================================
+# Flutter Plugin .gitignore Template
+# =====================================
+
+# Dart / Flutter
 .dart_tool/
 .packages
 .pub/
+build/
+flutter_*.symlinks/
+.generated/
+*.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# Android
+android/.gradle/
+android/local.properties
+android/.idea/
+android/*.iml
+android/app/*.iml
+android/**/gradlew
+android/**/gradlew.bat
+android/**/gradle-wrapper.jar
+android/**/gradle-wrapper.properties
+android/**/gradle.properties
+android/**/gradle/
+android/**/captures/
+android/**/outputs/
+android/**/intermediates/
+android/.cxx/
+*.apk
+*.aar
+
+# iOS / macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/.idea/
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/.symlinks/
+macos/.idea/
+macos/Runner/GeneratedPluginRegistrant.*
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+
+# Web
+lib/generated_plugin_registrant.dart
+web/.dart_tool/
+web/.idea/
+web/build/
+
+# Windows
+windows/.dart_tool/
+windows/Flutter/ephemeral/
+windows/.idea/
+windows/build/
+
+# Linux
+linux/.dart_tool/
+linux/Flutter/ephemeral/
+linux/.idea/
+linux/build/
+
+# IDEs
 .idea/
 .vscode/
+*.iml
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Env files
+.env
+.env.*
