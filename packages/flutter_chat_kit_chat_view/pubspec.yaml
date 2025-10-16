@@ -1,6 +1,7 @@
 name: flutter_chat_kit_chat_view
 description: "A customizable chat view widget for Flutter applications."
 version: 0.0.1
+
 resolution: workspace
 
 environment:

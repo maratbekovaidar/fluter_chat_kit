@@ -1,9 +1,17 @@
 name: flutter_chat_kit
 description: "Flutter Chat Kit is a collection of customizable and reusable chat UI components for building chat applications in Flutter."
 version: 0.0.1
-publish_to: none
 homepage: https://github.com/maratbekovaidar/fluter_chat_kit.git
-environment:
-  sdk: ">=3.6.0 <4.0.0"
+issue_tracker: https://github.com/maratbekovaidar/fluter_chat_kit/issues
+
 workspace:
   - packages/flutter_chat_kit_chat_view
+
+topics:
+  - chat
+  - chat ui
+  - chat kit
+  - messaging
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"

@@ -62,6 +62,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_chat_kit_chat_view:
+    dependency: "direct main"
+    description:
+      path: "../packages/flutter_chat_kit_chat_view"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_lints:
     dependency: "direct dev"
     description:
